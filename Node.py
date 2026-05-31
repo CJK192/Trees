@@ -5,4 +5,4 @@ class Node:
         self.right = None
     
     def __str__(self):
-        return "(" + self.data + ")"
+        return "(" + str(self.data) + ")"
